@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm sticky-top fixed-top">
+        <div class="container-fluid">
+            <h1 class="text-info" style="padding: auto; cursor: pointer; margin-left: 60px;">portfo<span class="text-white">lio</span></h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span></button>
+                
+                <div class="collapse navbar-collapse d-flex" id="mynavbar">
+                    <ul class=" navbar ul-nav d-flex text-info me-auto">                      
+                        <li class="nav-item">
+                            <a href="#index" class="nav-link text-info">Home</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link text-info ">About me</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link text-info">Services</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a href="#skill" class="nav-link text-info">Skills</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-info text-info">Contact</a>
+                        </li>
+                        
+                    </ul>
+                    
+                    <button class="nav-btn  px-4"><a href="http://www.youtube.com/@nelsondayo247">subscribe</a></button>
+                </div>
+
+        </div>
+        
+    </nav>
+
+
+<div id="index" class="container-fluid d-flex justify-content-between">
+    <div class="index-slide">
+        <div class="index-tags">
+            <h4 class="text-warning">Hello, my name is </h4>
+            <h1 class="text-light">Nelson <span class="text-info">Adedayo</span></h1>
+            <h5 class="text-white mt-4"><em>I'm a developer &copy;</em></h5>
+        </div>
+
+        <span class="index-form">
+            <input type="text" placeholder="type here">
+            <button class="text-info">Go &copy;</button>
+        </span>
+    </div>
+
+    <div class="index-img">
+        <img src="./photos/bg/bg11.jpg" alt="nelson">
+    </div>
+ 
+</div>
+
+<div id="about-me" class="container-fluid">
+    <div class="row">
+        <div class="col mt-5">
+            <div class="mt-5 px-3">
+                <img class=" border-3 py-3 rounded-pill" src="./photos/bg/bg17.jpg" alt="img" style="width: 600px; height:650px;">
+            </div>
+        </div>
+
+        <div class="col about-info">
+            <h1><em>About me</em></h1>
+            <h4 class="text-center mt-5 text-info">Developer & <span class="text-light">Desiner &copy;</span></h4>
+            <span><p class=" mt-5 text-center text-light">I am a front-end developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web aminations. A responsive design makes your website accessible to all users, regardless of their device.</front-end>.</p>
+            </span>
+            <button class="btn bg-info text-light">lets talk</button>
+           
+
+        </div>
+    </div><!--end of row-->
+</div>
+
+<div id="service" class="container-fluid bg-dark text-light py-3 text-center">
+
+<div class="service-card">
+    <h1 class="py-5 text-info">Our Services</h1>
+</div>
+    <div class=" row mt-5">
+        <div class="col py-5 px-4 text-center service-col1">
+            <h3 class="text-info">Web Development</h3>
+            <p class="text-center">
+                Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.
+            </p>
+
+            <a href="#" class="btn btn-info">View More</a>
+        </div>
+
+        <div class="col py-5 px-4 text-center service-col2">
+            <h3 class="text-info">Web Development</h3>
+            <p class="text-center">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+            <a href="#" class="btn btn-info">View More</a>
+        </div>
+
+        <div class="col py-5 px-4 text-center service-col3">
+            <h3 class="text-info">Web Developer</h3>
+            <p class="text-center">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+            <a href="#" class="btn btn-info">View More</a>
+        </div>
+        
+    </div><!--end of d row-->
+
+</div><!--end of services-->
+
+<div id="skill" class="container-fluid">
+    <div id="accordion " class="d-flex justify-content-center">
+         <div>
+            <div class="card py-1 bg-info text-white" style="width: 500px;">
+                <div class="card-header">
+                    <a href="#html" class="btn text-white" data-bs-toggle="collapse" style="border:none;">HTML</a>
+                </div>
+                <div id="html" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <h2>HTML</h2>
+                        <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci a, quae at hic</em></p>
+                    </div>
+                </div>
+            </div><!--end of card-->
+
+            <div class="card py-1 bg-info text-white" style="width: 500px;">
+                <div class="card-header">
+                    <a href="#python" class="btn btn-white" data-bs-toggle="collapse">PYTHON</a>
+                </div>
+                <div id="python" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <h2>Python</h2>
+                        <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci a, quae at hic cupiditate laboriosam accusantium, porro maiores quia placeat ratione sint unde commodi quos deleniti, cumque repellat voluptates recusandae?</em></p>
+                    </div>
+                </div>
+            </div><!--end of card-->
+
+            <div class="card py-1 d-flex bg-info text-white" style="width: 500px;">
+                <div class="card-header">
+                    <a href="#Bootstrap" class="btn text-white" data-bs-toggle="collapse">BOOSTRAP</a>
+                </div>
+                <div id="Bootstrap" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <h2>Bootstrap</h2>
+                        <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci a, quae at hic cupiditate laboriosam accusantium, porro maiores quia placeat ratione sint unde commodi quos deleniti, cumque repellat voluptates recusandae?</em></p>
+                    </div>
+                </div>
+            </div><!--end of card-->
+    </div>
+
+    <div class="dove1 mx-5">
+
+        <div class="card py-1 bg-info text-white" style="width: 500px;">
+            <div class="card-header">
+                <a href="#JavaScript" class="btn text-white" data-bs-toggle="collapse">JAVASCRIPT</a>
+            </div>
+            <div id="JavaScript" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    <h2>JavaScript</h2>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci a, quae at hic cupiditate laboriosam accusantium, porro maiores quia placeat ratione sint unde commodi quos deleniti, cumque repellat voluptates recusandae?</em></p>
+                </div>
+            </div>
+        </div><!--end of card-->
+       
+        <div class="card py-1 border-3-dark bg-info text-white" style="width: 500px;">
+            <div class="card-header">
+                <a href="#tailwind" class="btn text-white" data-bs-toggle="collapse">TAILWIND</a>
+            </div>
+            <div id="tailwind" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    <h2>Tailwind</h2>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci a, quae at hic cupiditate laboriosam accusantium, porro maiores quia placeat ratione sint unde commodi quos deleniti, cumque repellat voluptates recusandae?</em></p>
+                </div>
+            </div>
+        </div><!--end of card-->
+
+        <div class="card py-1 bg-info text-white" style="width: 500px;">
+            <div class="card-header">
+                <a href="#CSS" class="btn btn-white" data-bs-toggle="collapse">CSS</a>
+            </div>
+            <div id="CSS" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    <h2>CSS</h2>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci a, quae at hic cupiditate laboriosam accusantium, porro maiores quia placeat ratione sint unde commodi quos deleniti, cumque repellat voluptates recusandae?</em></p>
+                </div>
+            </div>
+        </div><!--end of card-->
+    </div>
+    </div>
+</div><!--end of skills-->
+
+<div id="contact" class="text-light" style="width: 100%; height: 750px;">
+    <h2 class="text-center mt-1" style="padding-top: 100px; border-bottom: 2px solid white; border-radius:5px;">Contact Me</h2>
+    
+    <div  class="d-flex mt-5">
+        
+        <div style="margin-left: 150px;">
+            <h3 class="contact-tag1"><em>Let Me Get You A Beautiful Website</em></h3>
+            <button class="btn mt-4 bg-info">Hire me</button>
+            <span><a href=""></a></span>
+            <h3 class="text-info" style="padding-top: 50px;"><em>contat me:</em></h3>
+
+            <span class="contact-med">
+                <div class="mt-3">
+                    <img class="bg-info p-1 rounded-pill" src="./photos/media/icons8-gmail.svg" alt="mail" style="width: 22px;">
+                    <a style="margin-left: 30px;" class="text-light" href="sunnynax@gmail.com"> sunnynax@gmail.com</a></div>
+                    
+                <div class="mt-3 media1">
+                    <img  class="bg-info p-1 rounded-pill" src="./photos/media/icons8-phone.svg" alt="phone" style="width: 22px;">
+                    <a href="" class="text-light" style="margin-left: 30px;">08103224275</a></div>
+            </span>
+
+            <div class="contact-links">
+            <a  href="http://www.Facebook.com/profile.php?id=100086966795275" style=" width: 20px; "><img class="bg-white rounded-pill p-1" src="./photos/media/icons8-facebook.svg" alt="Facebook" style=" width: 30px;"></a>
+
+            <a href="https://twitter,.com/nelsonlere?t=fEQqPseRaSoXct9ydWn0Q&s=09" style="width:20px; margin-left: 5PX;"><img class="bg-white rounded-pill p-1" src="./photos/media/icons8-twitter.svg" alt="Twitter" style=" width: 30px;"></a>
+
+            <a href="https://instagram.com/nelsonlere?igshid=MWM2YjBjM2Q=" style="width:20px; margin-left: px;"><img class="bg-white rounded-pill p-1" src="./photos/media/icons8-instagram.svg" alt="instagram" style=" width: 30px;"></a>
+            
+            <a href="https://www.LinkedIn.com/in/nelson-dayo-b7792b8a" style="width:20px; margin-left: 5PX;"><img class="bg-white rounded-pill p-1" src="./photos/media/icons8-linkedin.svg" alt="LinkedIn" style=" width: 30px; "></a>
+            
+        </div>
+            
+        </div><!--first div-->
+        
+        <div class="contact01">
+            <form class="mt-2">
+                <div class="mt-4">
+                    <input class="p-2" type="text" placeholder="Your Name" style="width: 300px;"></div>
+
+                <div class="mt-4">
+                    <input class="p-2" type="email" placeholder="Your Email" style="width: 300px;"></div>
+
+                <div class="mt-4 top" valign="top">
+                    <textarea class="message" cols="40" rows="4"></textarea>
+                </div>
+            </form>
+            <button class="btn mt-2 bg-info">submit</button>
+        </div><!--second div-->
+    </div><!--end of innerdiv-->
+
+    <hr class="mt-5 border-3-white">
+
+    <span class="text-center
+    mt-5">
+        <h1 class="text-info">Nelson Adedayo</h1>
+        <h6 class="m-4"><em>For HTML, CSS, Tailwind, Bootstrap and coding tutorial.<br>Please contact me by subscribe to my channel </em>&copy;</h6>
+    </span>
+    
+
+</div>
+</body>
+</html>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

@@ -17,31 +17,40 @@ export const NavBar = ()=>{
    
 
     return <>
-    <nav className="flex justify-between items-center bg-gray-800 py-2 px-[40px] sm:px-[50px] text-green-700">
+    <nav className="flex justify-between items-center bg-blue-700 py-2 px-[40px] sm:px-[50px]">
+
         <span className="rounded-[50%]">
-
-            <img className="w-[45px] h-[45px] md:[55px]" src="./logo/img2.jpg" alt="logo" /> 
-
+            <img className="md:w-[70px] md:h-[70px] w-[55px] h-[55px]  " src="./logo/c.png" alt="logo" /> 
         </span>
 
-        <div className="sm:hidden" onClick={toggle}>
-        <img src="./logo/burger.svg" alt="img" className="w-[20px]" />
+        <div className="sm:hidden flex text-blue-700 bg-white p-1 items-center rounded-md" onClick={toggle}>
+            <h3 className="mr-[0.1rem] font-bold cursor-pointer ">Menu</h3>
+        <img src="./logo/burger.svg" alt="img" className="w-[15px] text-blue-700 bg-white relative top-[0.1rem] cursor-pointer"/>
 
         </div>
     
-        <div className={` hidden sm:flex justify-around relative w-[500px] ` }>
-            <Link className=" hover:text-white hover:bg-blue-700 p-1 rounded-md focus:text-white ition ease-in-out duration-700" to="/">Home</Link>
-            <Link className=" hover:text-white hover:bg-blue-700 p-1 rounded-md focus:text-white transition ease-in-out duration-700" to="/contact">Contact</Link>
-            <Link className="hover:text-white hover:bg-blue-700 p-1 rounded-md focus:text-white transition ease-in-out duration-700" to="/aboutUs">About Us</Link>
-            <Link className="hover:text-white hover:bg-blue-700 p-1 rounded-md focus:text-white ition ease-in-out duration-700" to="services">Services</Link>
-            <Link className="hover:text-white hover:bg-blue-700 p-1 rounded-md focus:text-white ition ease-in-out duration-700" to="skills">Skills</Link>
+        <div className="hidden sm:flex justify-around relative w-[500px] text-white">
+            <Link className=" hover:text-blue-700 hover:bg-white p-1 rounded-md" to="/">Home</Link>
+            <Link className=" hover:text-blue-700 hover:bg-white p-1 rounded-md" to="aboutUs">About Us</Link>
+            <Link className="hover:text-blue-700 hover:bg-white p-1 rounded-md" to="skills">Skills</Link>
+            <Link className="hover:text-blue-700 hover:bg-white p-1 rounded-md " to="services">Services</Link>
+            <Link className="hover:text-blue-700 hover:bg-white p-1 rounded-md" to="contact">Contact</Link>
         </div>
+
     </nav>
 
-    <div className={`mobile-menu flex flex-col items-center my-2 sm:hidden ${isMenuOpen? "hidden" : "block"}`}>
-        {links.map((link)=> <Link className={`hover:text-white hover:bg-blue-700 p-1 rounded-md ${link === activeLink && "text-white"}`} onClick={()=>{ active(link);}}>{link}</Link>)}
-           
+    <div className={`mobile-menu flex flex-col p-2 my-2 bg-blue-600 w-[300px] ml-2 mt-[-5px] sm:hidden ${isMenuOpen? "hidden" : "block"}`}>
+
+        <Link className="cursor-pointer hover:text-white hover:underline hover:underline-offset-1 p-1" to="/">Home</Link>
+        <Link className=" hover:text-white hover:underline hover:underline-offset-1 p-1" to="aboutUs">About Us</Link>
+        <Link className="hover:text-white  hover:underline hover:underline-offset-1 p-1" to="skills"> Skills</Link>
+        <Link className="hover:text-white hover:underline hover:underline-offset-1 p-1" to="services">Services</Link>
+        <Link className="hover:text-white hover:underline hover:underline-offset-1" to="contact">contact</Link>
+
+{/* {links.map((link)=> <Link className={`hover:text-white hover:bg-blue-700 p-1 rounded-md ${link === activeLink && "text-white"}`} onClick={()=>{ active(link);}}>{link}</Link>)}  */}
+
     </div>
+    
     </>
   
 

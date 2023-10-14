@@ -1,3 +1,3 @@
 export const Skills = () =>{
-    return <h1>This is the Skills Page</h1>
+    return <h1 className="text-white">This is the Skills Page</h1>
 }

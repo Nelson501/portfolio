@@ -1,48 +1,27 @@
-import { NavBar} from './Navbar'
-import { BrowserRouter as Router, Routes, Route }
-from 'react-router-dom'
-import { Home } from './pages/Home'
-import { AboutUs} from './pages/AboutUs'
-import { Skills } from './pages/Skills'
-import { Services } from './pages/Services'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import { Contact } from './pages/Contact'
+import { Navbar } from './Navbar';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
+import { Skills } from './pages/Skills';
+import { Services } from './pages/Services';
+import { Contact } from './pages/Contact';
 
-function App() {
-
-const myImage = "/logo/img.jpg"
-
-  return <div className='w-full h-screen'>
-    <header className=''>
-    <Router> 
-      <NavBar/>
+function App(){
+  return<div className='bg-black w-full'>
+  <header className="">
+    <Router>
+      <Navbar/>
       <Routes>
-        <Route path="/" element ={<Home myImage={myImage}/>} />
-        <Route path="/aboutUs"  element ={<AboutUs/>} />
-        <Route path="/skills"  element ={<Skills/>} />
-        <Route path="/services" element ={<Services/>} />
-        <Route path="/contact" element ={<Contact/>} />
-        <Route path='*' element= { <div className='flex  flex-col w-full h-screen justify-center items-center'><h1 className='text-red-700 text-[50px]'>Page not found!</h1></div>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>}/>
+        <Route path='/skill' element={<Skills/>} />
+        <Route path='services' element={<Services/>}/>
+        <Route path='contact' element={<Contact/>} />
       </Routes>
     </Router>
-    
   </header>
-
-  <main>
-    <div></div>
-    <div>
-      <div></div>
-      </div>
-
-  </main>
-
-  <footer>
-
-  </footer>
   </div>
-  
-
-
 }
 
-export default App
+export default App;

@@ -19,7 +19,7 @@ export const About = ()=>{
                 </p>
             </div>
 
-            <div className="flex justify-center mt-10 bg-blue-700 w-[40%] relative left-[50px] py-2 text-[20px] sm:left-[150px] lg:left-[340px] font-serif border-2 border-white hover:bg-blue-600 rounded-lg sm:w-[100px] cursor-pointer">Let's Talk</div>
+            <div className="flex justify-center mt-10 bg-blue-700 w-[45%] relative left-[50px] py-2 text-[20px] sm:left-[150px] lg:left-[340px] font-serif border-2 border-white hover:bg-blue-600 rounded-lg sm:w-[100px] cursor-pointer">Let's Talk</div>
         </div>
 
         

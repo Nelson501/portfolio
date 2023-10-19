@@ -27,8 +27,8 @@ export const Navbar = ()=>{
         <div className="hidden sm:flex w-[70%] sm:w-[60%] justify-around text-white">
             <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='/'>Home</Link>
             <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='about'>About</Link>
-            <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='skill'>Skills</Link>
-            <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='services' >Services</Link>
+            <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='services'>Services</Link>
+            <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='skill' >Skills</Link>
             <Link className="hover:bg-white hover:text-blue-700 cursor-pointer p-1 rounded-md" to='contact'>Contact</Link>
         </div>
     </nav>
@@ -36,8 +36,8 @@ export const Navbar = ()=>{
     <div className={`flex flex-col px-3 gap-3 bg-blue-600 w-[60%] relative bottom-3 left-2 sm:hidden rounded-md ${openMenu? "hidden" : "block"}`}>
             <Link className="hover:text-white hover:bg-blue-600 cursor-pointer p-1 rounded-md" to='/'>Home</Link>
             <Link className="hover:text-white bg:bg-blue-600 cursor-pointer p-1 rounded-md" to='about'>About</Link>
-            <Link className="hover:text-white hover:bg-blue-600 cursor-pointer p-1 rounded-md" to='skill'>Skills</Link>
-            <Link className="hover:text-white hover:bg-blue-600 cursor-pointer p-1 rounded-md" to='services' >Services</Link>
+            <Link className="hover:text-white hover:bg-blue-600 cursor-pointer p-1 rounded-md" to='services'>Services</Link>
+            <Link className="hover:text-white hover:bg-blue-600 cursor-pointer p-1 rounded-md" to='skill' >Skills</Link>
             <Link className="hover:text-white hover:bg-blue-600 cursor-pointer p-1 rounded-md" to='contact'>Contact</Link>
         </div>
 

@@ -2,7 +2,7 @@
 
 export const Services = ()=>{
 
-
+{/* react-logo <i class="fa-brands fa-react" style="color: #0a92e6;"></i> */}
     return <div className="text-white p-4">
 
         <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 bg-white text-black justify-center items-center mt-6">

@@ -20,7 +20,7 @@ export const Home = ()=>{
                 </p>
             </div>
 
-            <div className="flex justify-center mt-10 w-[45%] lg:w-[25%] md:w-[30%] sm:px-0 py-2   bg-blue-700 border-white border-2 rounded-md hover:bg-blue-600 cursor-pointer font-serif">Hire Me</div>
+            <div className="flex justify-center mt-10 w-[45%] lg:w-[25%] md:w-[30%] sm:px-0 py-2   bg-blue-700 border-white border-2 rounded-md hover:bg-blue-600 cursor-pointer font-serif shadow-md shadow-slate-400">Hire Me</div>
 
         </div>
 

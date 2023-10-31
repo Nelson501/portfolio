@@ -10,23 +10,23 @@ export const Contact = ()=>{
             <h1 className=" text-[20px] md:text-[40px]  font-bold">contact</h1>
         </div>
 
-        <div className="text-white mt-[100px]">
+        <div className="text-white mt-[100px] flex flex-col justify-center items-center">
             <div className="flex
-             justify-center mt-6 items-center relative right-[150px] w-full">
+             justify-center mt-6 items-center">
                 <div className="w-[30px]">
                     <img src="/media-logo/gmail.png" alt="" />
                     </div>
-                <div className="ml-[80px]">
+                <div className="ml-[60px]">
                     <a href="sunnynax01@gmail.com" className=""> sunnynax01@gmail.com</a>
                 </div>
             </div>
 
             <div className="flex
-             justify-center mt-6 items-center relative right-[190px] w-full">
+             justify-center mt-6 items-center">
                 <div className="w-[30px] bg-white p-1 rounded-lg">
                     <img src="/media-logo/phone-solid.svg" alt="" />
                     </div>
-                <div className="ml-[80px]">
+                <div className="ml-[140px]">
                     <a href="07045345605" className="">07045345605</a>
                 </div>
             </div>

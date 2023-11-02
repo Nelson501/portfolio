@@ -14,13 +14,13 @@ export const Services = ()=>{
 
             {/* fisrt card */}
             <div className="sm:w-1/3 mx-2 mb-10 sm:mb-4">
-                <div className="flex flex-col bg-red-400 justify-center
-                items-center p-8 border-b-4 border-pink-600 rounded-lg h-full"> 
-                    <div className=" bg-blue-700 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
+                <div className="flex flex-col bg-cyan-950 justify-center
+                items-center p-8 border-b-4 border-cyan-600 rounded-lg h-full"> 
+                    <div className=" bg-blue-900 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
                         <img src="/logo/bars-solid.svg" className="w-[40px] h-[40px]" alt="" />
                     </div>
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
-                    my-4 bg-blue-500 p-1 rounded-md" >Web Development</div>
+                    my-4 bg-blue-900 p-1 rounded-md" >Web Development</div>
                     <div>
                         <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
                     </div>
@@ -29,13 +29,13 @@ export const Services = ()=>{
 
                 {/* second card */}
             <div className="sm:w-1/3 mx-2 mb-10 sm:mb-4">
-                <div className="flex flex-col bg-red-400 justify-center
-                items-center p-8 border-b-4 border-pink-600 rounded-lg h-full"> 
-                    <div className=" bg-blue-700 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
+                <div className="flex flex-col bg-cyan-950 justify-center
+                items-center p-8 border-b-4 border-cyan-600 rounded-lg h-full"> 
+                    <div className=" bg-blue-900 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
                         <img src="/logo/user-solid.svg" className="w-[40px] h-[40px]" alt="" />
                     </div>
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
-                    my-4 bg-blue-500 p-1 rounded-md" >Web Development</div>
+                    my-4 bg-blue-900 p-1 rounded-md" >Web Development</div>
                     <div>
                         <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
                     </div>
@@ -44,13 +44,13 @@ export const Services = ()=>{
 
             {/* third card */}
             <div className="sm:w-1/3 mx-2 mb-10 sm:mb-4">
-                <div className="flex flex-col bg-red-400 justify-center
-                items-center p-8 border-b-4 border-pink-600 rounded-lg h-full"> 
-                    <div className=" bg-blue-700 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
+                <div className="flex flex-col bg-cyan-950 justify-center
+                items-center p-8 border-b-4 border-cyan-600 rounded-lg h-full"> 
+                    <div className=" bg-blue-900 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
                         <img src="/logo/light.png" className="w-[40px] h-[40px]" alt="" />
                     </div>
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
-                    my-4 bg-blue-500 p-1
+                    my-4 bg-blue-900 p-1
                      rounded-md" >Electrical engr</div>
                     <div>
                         <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>

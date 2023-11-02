@@ -7,11 +7,11 @@ export const About = ()=>{
         </div>
         {/* second section */}
         <div className=" block p-6 justify-center items-center">
-            <span className="flex w-ull justify-center items-center bg-white border-2 border-black rounded-lg"> <h1 className="text-blue-700 font-bold p-3 sm:text-[45px]">About Me</h1></span>
+            <span className="flex w-ull justify-center items-center border-b-2 border-white bg-cyan-950 rounded-lg"> <h1 className="text-white font-bold p-3 sm:text-[45px]">About Me</h1></span>
 
             <div className="flex w-full justify-center items-center mt-10 sm:text-[20px] text-[18px] font-mono">
                 <h3>Developer & </h3>
-                <h3 className="text-blue-700 pl-2">  Designer &copy;</h3>
+                <h3 className="text-cyan-800 pl-2">  Designer &copy;</h3>
             </div>
 
             <div className="w-full justify-center items-center mt-4">
@@ -19,7 +19,7 @@ export const About = ()=>{
                 </p>
             </div>
 
-            <div className="flex justify-center mt-10 bg-blue-700 w-[45%] relative left-[70px] py-2 text-[20px] sm:left-[180px] lg:left-[340px] font-serif border-2 border-white hover:bg-blue-600 rounded-lg sm:w-[100px] cursor-pointer duration-300 shadow-md shadow-slate-400">Let's Talk</div>
+            <div className="flex justify-center mt-10 bg-cyan-950 w-[45%] relative left-[70px] py-2 text-[20px] sm:left-[180px] lg:left-[340px] font-serif border-2 border-white hover:bg-cyan-800 rounded-lg sm:w-[100px] cursor-pointer duration-300 shadow-md shadow-slate-400">Let's Talk</div>
         </div>
 
         

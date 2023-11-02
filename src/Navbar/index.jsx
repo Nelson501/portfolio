@@ -13,7 +13,7 @@ export const Navbar = ()=>{
     return<>
     {/* <button onClick={toggleMenu}>togui</button> */}
     
-    <nav className="flex items-center justify-between bg-blue-700 px-6 py-3">
+    <nav className="flex items-center justify-between bg-cyan-950 px-6 py-3">
 
         <div className="w-[80px] sm:w-[120px]" >
             <img src="/logo/c.png" alt="logo" className="rounded-[50%]" />

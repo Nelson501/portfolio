@@ -5,8 +5,8 @@ export const Services = ()=>{
 {/* react-logo <i class="fa-brands fa-react" style="color: #0a92e6;"></i> */}
     return <div className="text-white p-4">
 
-        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 bg-white text-black justify-center items-center mt-6">
-            <h1 className=" text-[20px] md:text-[40px]  font-bold">Our Services</h1>
+        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 bg-cyan-950 text-white justify-center items-center mt-6">
+            <h1 className=" text-[25px] md:text-[40px]  font-bold">Our Services</h1>
         </div>
 
         {/* cards */}
@@ -63,7 +63,7 @@ export const Services = ()=>{
 
         <div className="flex flex-col justify-center items-center mt-10">
             <div className="flex flex-col  bg-black  w-full justify-center items-center">
-                <div className="flex flex-col justify-center items-center bg-white text-black py-3 px-6 w-[200px] md:w-[300px] lg:w-[400px] rounded-xl font-bold text-[40px]" >
+                <div className="flex flex-col justify-center items-center bg-cyan-950 text-white py-3 px-6 w-[200px] border-b-2 border-white md:w-[300px] lg:w-[400px] rounded-xl font-bold text-[40px]" >
                     Portfolio
                 </div>
             </div>

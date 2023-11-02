@@ -3,8 +3,8 @@ import { useState } from "react"
 
 export const CardHtml = () =>{
 
-    const [openHtml, setOpenHtml] = useState(true)
-    const[changeHtml, setChangeHtml] = useState("black")
+    const [openHtml, setOpenHtml] = useState(false)
+    const[changeHtml, setChangeHtml] = useState("red")
 
 
 
@@ -12,7 +12,7 @@ export const CardHtml = () =>{
     const haddleOpen = ()=>{
                 setOpenHtml(!openHtml)
 
-                setChangeHtml(changeHtml === "black"? "red": "black")
+                setChangeHtml(changeHtml === "red"? "black": "red")
 
     }
 

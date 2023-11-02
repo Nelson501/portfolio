@@ -5,13 +5,13 @@ export const Home = ()=>{
         {/* first section */}
         <div className="py-6 pr-[40px] text-white">
 
-            <div className="text-blue-700 text-[35px] font-bold w-full ">
+            <div className="text-cyan-800 text-[35px] font-bold w-full ">
                 <h2>Nelson Adedayo</h2>
             </div>
 
             <span className="font-mono w-full">
                 <h2 className="mt-4 sm:text-[30px]">I'm a Web</h2>
-                <h2 className="sm:text-[30px] text-blue-700">Developer &copy;</h2>
+                <h2 className="sm:text-[30px] text-cyan-800">Developer &copy;</h2>
             </span>
 
             <div className="text-white font-mono leading-6 tracking-wide mt-8 w-full justify-center items-center">
@@ -20,7 +20,7 @@ export const Home = ()=>{
                 </p>
             </div>
 
-            <div className="flex justify-center mt-10 w-[45%] lg:w-[25%] md:w-[30%] sm:px-0 py-2   bg-blue-700 border-white border-2 rounded-md hover:bg-blue-600 cursor-pointer font-serif shadow-md shadow-slate-400">Hire Me</div>
+            <div className="flex justify-center mt-10 w-[45%] lg:w-[25%] md:w-[30%] sm:px-0 py-2   bg-cyan-950 border-white border-2 rounded-md hover:bg-cyan-900 cursor-pointer font-serif shadow-md shadow-slate-400">Hire Me</div>
 
         </div>
 

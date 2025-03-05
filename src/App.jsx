@@ -8,7 +8,7 @@ import { Services } from './pages/Services';
 import { Contact } from './pages/Contact';
 
 function App(){
-  return<div className='bg-black w-full'>
+  return<div className='bg-gray-950 w-full'>
   <header className="">
     <Router>
       <Navbar/>

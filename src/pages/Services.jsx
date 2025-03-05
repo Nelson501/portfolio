@@ -1,11 +1,10 @@
-
+import { Portfolio } from "./Portfolio"
 
 export const Services = ()=>{
 
-{/* react-logo <i class="fa-brands fa-react" style="color: #0a92e6;"></i> */}
     return <div className="text-white p-4">
 
-        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 bg-cyan-950 text-white justify-center items-center mt-6">
+        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[27rem] py-6 bg-cyan-950 text-white justify-center items-center mt-6">
             <h1 className=" text-[25px] md:text-[40px]  font-bold">Our Services</h1>
         </div>
 
@@ -15,14 +14,14 @@ export const Services = ()=>{
             {/* fisrt card */}
             <div className="sm:w-1/3 mx-2 mb-10 sm:mb-4">
                 <div className="flex flex-col bg-cyan-950 justify-center
-                items-center p-8 border-b-4 border-cyan-600 rounded-lg h-full"> 
+                items-center p-8 border-b-4 border-white rounded-lg h-full"> 
                     <div className=" bg-blue-900 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
                         <img src="/logo/bars-solid.svg" className="w-[40px] h-[40px]" alt="" />
                     </div>
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
                     my-4 bg-blue-900 p-1 rounded-md" >Web Development</div>
                     <div>
-                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
+                        <p className="text-center">I'm a frontend web developer, I can create and maintain your websites and web applications</p>
                     </div>
                 </div>
             </div>
@@ -30,12 +29,12 @@ export const Services = ()=>{
                 {/* second card */}
             <div className="sm:w-1/3 mx-2 mb-10 sm:mb-4">
                 <div className="flex flex-col bg-cyan-950 justify-center
-                items-center p-8 border-b-4 border-cyan-600 rounded-lg h-full"> 
+                items-center p-8 border-b-4 border-white rounded-lg h-full"> 
                     <div className=" bg-blue-900 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
                         <img src="/logo/user-solid.svg" className="w-[40px] h-[40px]" alt="" />
                     </div>
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
-                    my-4 bg-blue-900 p-1 rounded-md" >Web Development</div>
+                    my-4 bg-blue-900 p-1 rounded-md" >Computer Engineering</div>
                     <div>
                         <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
                     </div>
@@ -45,131 +44,31 @@ export const Services = ()=>{
             {/* third card */}
             <div className="sm:w-1/3 mx-2 mb-10 sm:mb-4">
                 <div className="flex flex-col bg-cyan-950 justify-center
-                items-center p-8 border-b-4 border-cyan-600 rounded-lg h-full"> 
+                items-center p-8 border-b-4 border-white rounded-lg h-full"> 
                     <div className=" bg-blue-900 w-[80px] h-[80px] rounded-full flex flex-col justify-center items-center p-2">
                         <img src="/logo/light.png" className="w-[40px] h-[40px]" alt="" />
                     </div>
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
                     my-4 bg-blue-900 p-1
-                     rounded-md" >Electrical engr</div>
+                     rounded-md" >Electrical Engineering</div>
                     <div>
-                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
+                        <p className="text:red-500 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
                     </div>
                 </div>
             </div>
 
        </div>
+
         {/* portfolio */}
+        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[22rem] py-6 bg-cyan-950 text-white justify-center items-center md:mt-[5rem]">
+            <h1 className=" text-[25px] md:text-[40px]  font-bold capitalize">porfolio</h1>
+        </div>
 
-        <div className="flex flex-col justify-center items-center mt-10">
-            <div className="flex flex-col  bg-black  w-full justify-center items-center">
-                <div className="flex flex-col justify-center items-center bg-cyan-950 text-white py-3 px-6 w-[200px] border-b-2 border-white md:w-[300px] lg:w-[400px] rounded-xl font-bold text-[40px]" >
-                    Portfolio
-                </div>
-            </div>
-
-            {/* first */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            {/* second */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            {/* third */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            {/* fourth */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            {/* fiveth */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            {/* sixth */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            {/* seventh */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            {/* first */}
-            <div>
-                <div>
-                    <img src="" alt="" />
-                </div>
-
-                {/* demo & git */}
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
+        <div className="flex flex-col justify-center items-center main-service mt-10">
+            <div className="flex flex-col justify-center items-center">
+                <Portfolio/>
             </div>
         </div>
+
     </div>
 }

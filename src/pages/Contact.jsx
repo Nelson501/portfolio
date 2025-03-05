@@ -1,7 +1,9 @@
 
 // import { Form } from "../Form/Form"
-
 import { Footer } from "./Footer"
+// import { IMAGES } from "../pics/imgs"
+
+
 
 export const Contact = ()=>{
     return <div className="flex flex-col justify-center w-full">
@@ -19,6 +21,7 @@ export const Contact = ()=>{
                 </div>
                 <div className="ml-[30px] lg:ml-[80px]">
                     <a href="sunnynax01@gmail.com" className="">sunnynax01@gmail.com</a>
+                    {/* <img src={IMAGES.git} alt="" /> */}
                 </div>
             </div>
 
@@ -34,9 +37,10 @@ export const Contact = ()=>{
         </div>
 
         {/* form */}
+        {/* <Form/> */}
         <div className=" mt-10 flex flex-col justify-center items-center">
             <form action="form" className="flex flex-col sm:flex-row">
-                <input type="text"  placeholder="Enter Your name" className="m-2 p-2 w-full border-b-2 border-gray-700 rounded-lg bg-cyan-950 text-white"/>
+                <input type="text"  placeholder="Enter Your name" className="m-2 p-2 w-full border-b-2 border-gray-700 rounded-lg bg-cyan-950 text-white "/>
 
                 <input type="email"placeholder="Enter your email" className="m-2 p-2 w-full border-b-2 border-gray-700 rounded-lg bg-cyan-950 text-white"/>
             </form>

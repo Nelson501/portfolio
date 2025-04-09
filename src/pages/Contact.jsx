@@ -8,8 +8,8 @@ import { Footer } from "./Footer"
 export const Contact = ()=>{
     return <div className="flex flex-col justify-center w-full">
 
-        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 borderwhie
-         sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 bg-cyan-950 text-white justify-center items-center my-6 mt-10">
+        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] italic font-serif
+         sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 text-white justify-center items-center my-6 mt-10">
             <h1 className=" text-[20px] md:text-[40px]  font-bold">contact</h1>
         </div>
 
@@ -47,7 +47,7 @@ export const Contact = ()=>{
 
             <textarea name="text" id="name" cols="30" rows="10" className="mt-6 bg-cyan-950 p-2 text-white font-serif rounded-lg" placeholder="Message"></textarea>
 
-            <div className=" cursor-pointer shadow-md shadow-slate-400 text-white my-10 px-6 py-3 bg-cyan-950 rounded-md font-bold ">Submit</div>
+            <div className="submit hover:bg-cyan-900 cursor-pointer shadow-md shadow-slate-400 text-white my-10 px-6 py-3 bg-cyan-950 rounded-md font-bold ">Submit</div>
         
         </div>
 

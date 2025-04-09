@@ -12,9 +12,9 @@ export const Navbar = ()=>{
 
     return<>
     {/* <button onClick={toggleMenu}>togble</button> */}
-    <nav className="flex items-center justify-between bg-cyan-950 px-6 py-3">
+    <nav className="flex items-center justify-between bg-cyan-950 px-4 py-2 sticky top-0 z-50">
 
-        <div className="w-[80px] sm:w-[120px]" >
+        <div className="w-[40px] sm:w-[70px]" >
             <img src="/logo/c.png" alt="logo" className="rounded-[50%]" />
         </div>
 

@@ -2,7 +2,6 @@ import { ComputerDoc } from "./Portfolio/ComputerDoc"
 import { FoodRecipe } from "./Portfolio/FooRecipe"
 import { WebDeveloper } from "./Portfolio/WebDeveloper"
 import { FoodApp } from "./Portfolio/FoodApp"
-// import { MachineOperator } from "./Portfolio/MachineOperator"
 import { TodoList } from "./Portfolio/TodoList"
 import { FormUpdate } from "./Portfolio/formUpdate"
 

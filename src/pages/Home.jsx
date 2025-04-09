@@ -1,7 +1,7 @@
 export const Home = ()=>{
     return <>
 
-    <div className="flex justify-center items-center p-[50px]">
+    <div className="flex flex-cols justify-center items-center p-[50px]">
         {/* first section */}
         <div className="py-6 pr-[40px] text-white">
 

@@ -17,6 +17,6 @@ export const Card = ()=>{
     <CardJavaScript/>
     <CardReact/>
     <CardPython/>
-
+    
     </div>
 }

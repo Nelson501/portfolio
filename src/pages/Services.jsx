@@ -1,4 +1,4 @@
-import { Portfolio } from "./Portfolio"
+// import { Portfolio } from "./Portfolio"
 import { Link } from "react-router-dom"
 
 
@@ -62,17 +62,17 @@ export const Services = ()=>{
        </div>
 
         {/* portfolio */}
-        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[22rem] py-6 text-white justify-center items-center md:mt-[5rem]">
+        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[22rem] py-6 text-white  md:mt-[5rem]">
             <h1 className=" text-[25px] md:text-[40px]  font-bold uppercase">porfolio</h1>
         </div>
 
-        <div className="flex flex-col justify-center items-center main-service mt-10">
+        {/* <div className="flex flex-col justify-center items-center main-service mt-10">
             <div className="flex flex-col justify-center items-center">
                 <Portfolio/>
             </div>
-        </div>
+        </div> */}
 
-        <div className="flex flex-colnpm justify-center items-center text-white bg-cyan-950 mt-10 px-4 py-1 md: px-6 lg:px-8 border-b-4 border-white rounded-md md:w-[100px] lg:w-[120px]"> <Link to='/About'>About</Link></div>
+        <div className="flex flex-col justify-center items-center text-white bg-cyan-950 mt-10 py-1 md: px-6 lg:px-8 border-b-4 border-white rounded-md md:w-[100px] lg:w-[120px]"> <Link to='/About'>About</Link></div>
 
     </div>
 }

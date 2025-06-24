@@ -18,7 +18,7 @@ export const Skills = ()=>{
 
          </div>
 
-         <div className="flex flex-cols justify-center items-center text-white bg-cyan-950 mt-10 px-4 py-1 md: px-6 lg:px-8 border-b-4 border-white rounded-md md:w-[100px] lg:w-[120px]"> <Link to='/'>Home</Link></div>
+         <div className="flex flex-cols justify-center items-center text-white bg-cyan-950 mt-10 py-1 md: px-6 lg:px-8 border-b-4 border-white rounded-md md:w-[100px] lg:w-[120px]"> <Link to='/'>Home</Link></div>
 
     </div>
 }

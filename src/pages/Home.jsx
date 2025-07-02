@@ -24,7 +24,7 @@ export const Home = ()=>{
 
         </div>
 
-        {/* secon section */}
+        {/* second section */}
         <div className="hidden sm:flex p-2">
             <img src="/logo/img.jpg" alt="" />
         </div>

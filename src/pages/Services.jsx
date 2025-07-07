@@ -1,13 +1,13 @@
-// import { Portfolio } from "./Portfolio"
-import { Link } from "react-router-dom"
 import { Portfolio } from "./Portfolio"
+import { Link } from "react-router-dom"
+
 
 
 export const Services = ()=>{
 
-    return <div className="text-white p-4">
+    return <div className="text-white p-4 flex flex-col justify-center items-center">
 
-        <div className="flex flex-cols justify-center items-center w-[70%] sm:left-[28%] uppercase sm:w-[40%] relative left-[4.3rem] md:left-[27rem] py-6 text-white mt-6">
+        <div className="flex flex-cols justify-center items-center uppercase py-6 text-white mt-6">
             <h1 className=" text-[25px] md:text-[40px]  font-bold">Our Services &copy;</h1>
         </div>
 
@@ -24,7 +24,7 @@ export const Services = ()=>{
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
                     my-4 bg-blue-900 p-1 rounded-md" >Web Development</div>
                     <div>
-                        <p className="text-center">I'm a frontend web developer, I can create and maintain your websites and web applications</p>
+                        <p className="text-center">I'm a frontend web developer, I can create and maintain your websites and web applications. I craft custom solutions that align perfectly with your business goals</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,12 @@ export const Services = ()=>{
                     <div className=" text-[15px] sm:text-[18px] font-mono font-bold uppercase
                     my-4 bg-blue-900 p-1 rounded-md" >Computer Engineering</div>
                     <div>
-                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
+                        <p className="">TROUBLESHOOTING:I repair fault computers such as replacing faulty RAM, hard drives keyboards
+                        </p>
+                        <p className="text-"><span className="font-bold">FORMAT:</span> remove viruses and malware, fixing boot error and prepare computer for a fresh operating system installation
+                        </p>
+                        <p className=""><span className="font-bold">SETUP:</span> Installing an operating system, installing necessary drivers and software and setting up user accounts and internet connections
+                        </p>
                     </div>
                 </div>
             </div>
@@ -55,7 +60,12 @@ export const Services = ()=>{
                     my-4 bg-blue-900 p-1
                      rounded-md" >Electrical Engineering</div>
                     <div>
-                        <p className="text:red-500 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam, doloremque placeat ullam veritatis omnis commodi repellat tempore facere, nesciunt et deserunt laboriosam quo dolore deleniti odit itaque. Quam, repellat!</p>
+                        <p className="text:red-500 text-white">I installs, maintains, and repairs electricaal systems in homes and residential buildings..
+                            <p>.Installing eectrical fixtures like lights, sckets, and switches.</p>
+                            <p>.Setting up household appliances and ensuring safety power supply.</p>
+                            <p>.Fixing electrical faults and troubleshooting problems.
+                            Ensuring safety compliance with local electricak codes and standards</p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -63,17 +73,16 @@ export const Services = ()=>{
        </div>
 
         {/* portfolio */}
-        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] rounded-xl border-b-2 sm:w-[40%] relative left-[3.3rem] md:left-[22rem] py-6 text-white  md:mt-[5rem]">
-            <h1 className=" text-[25px] md:text-[40px]  font-bold uppercase">porfolio &copy;</h1>
+        <div className="flex flex-col justify-center items-center py-6 text-white  md:mt-[5rem] bg-cyan-950 p-4 rounded-lg shadow-lg shadow-cyan-900">
+            <h1 className=" text-[25px] md:text-[40px]  font-bold uppercase font-serif">porfolio &copy;</h1>
         </div>
 
-        {/* <div className="flex flex-col justify-center items-center main-service mt-10">
-            <div className="flex flex-col justify-center items-center">
-                <Portfolio/>
-            </div>
-        </div> */}
+        
         <div className="flex flex-col justify-center items-center">
             <Portfolio/>
+        </div>
+        <div className="flex flex-col text-white items-center mt-10 bg-cyan-950 p-2">
+            <Link to="/about">About</Link>
         </div>
     </div>
 }

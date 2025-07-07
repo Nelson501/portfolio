@@ -33,7 +33,7 @@ export const Navbar = ()=>{
         
     </nav>
 
-    <div className={`flex flex-col px-3 gap-3 text-white font-bold w-[60%] relative bottom-3 left-2 mt-4 italic sm:hidden rounded-md ${openMenu? "hidden" : "block"}`}>
+    <div className={`flex flex-col items-center px-3 gap-3 text-white font-bold w-[60%] relative left-[5rem] mt-4 italic sm:hidden rounded-md ${openMenu? "hidden" : "block"}`}>
             <Link className="hover:text-cyan-950 cursor-pointer p-1 rounded-md" to='/'>Home</Link>
             <Link className="hover:text-cyan-950 cursor-pointer p-1 rounded-md" to='/about'>About</Link>
             <Link className="hover:text-cyan-950 cursor-pointer p-1 rounded-md" to='/services'>Services</Link>

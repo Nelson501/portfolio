@@ -24,8 +24,8 @@ export const Portfolio = ()=>{
     const githubInv = 'git hub link'
 
     // Todo List
-    const todoListLink = "www.computer.com"
-    const githubTodolist = 'git hub link'
+    const todoListLink = "https://new-todo-ruby.vercel.app/"
+    const githubTodolist = "https://github.com/Nelson501/New-Todo.git"
    
     // Ecommerce
     const ecommerceLink = "www.computer.com"
@@ -36,8 +36,8 @@ export const Portfolio = ()=>{
     const githubCal = 'git hub link'
 
     // Stop watch
-    const stopwatchLink = "www.computer.com"
-    const githubWatch = 'git hub link'
+    const stopwatchLink = "https://stopwatch-flame-eight.vercel.app/"
+    const githubWatch = "https://github.com/Nelson501/stopwatch.git"
 
     // R-P-S Games
     const rpsLink = "www.computer.com"
@@ -48,8 +48,8 @@ export const Portfolio = ()=>{
     const githubRecipe = "https://github.com/Nelson501/Food-Recipe-store.git"
 
     // My web Flyer
-    const flyerLink = "www.computer.com"
-    const githubFlyer = 'git hub link'
+    const flyerLink = "https://fronten-task1.vercel.app/"
+    const githubFlyer = "https://github.com/Nelson501/Fronten-task1.git"
 
 
     return <div className="grid grid-cols- md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10">

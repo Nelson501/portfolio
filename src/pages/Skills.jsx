@@ -13,7 +13,7 @@ export const Skills = ()=>{
 
         {/* skills */}
 
-        <div className="text-white">
+        <div>
             < Card />
 
          </div>

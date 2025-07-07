@@ -12,12 +12,12 @@ import MYFLYER from '../assets/myWeb.png'
 export const Portfolio = ()=>{
 
     // food delivery
-    const foodappLink = "www.computer.com"
-    const githubFoodapp = 'git hub link'
+    const foodappLink = "https://food-delivery-appi.vercel.app/"
+    const githubFoodapp = "https://github.com/Nelson501/food-delivery-appi.git"
     
     // form
-    const formLink = "www.computer.com"
-    const githubForm = 'git hub link'
+    const formLink = "https://form-update.vercel.app/"
+    const githubForm = "https://github.com/Nelson501/Form-update.git"
     
     // inventory management
     const inventoryMgt = "www.computer.com"
@@ -44,15 +44,15 @@ export const Portfolio = ()=>{
     const githubRsp = 'git hub link'
 
     // Food Recipe
-    const foodrecipeLink = "www.computer.com"
-    const githubRecipe = 'git hub link'
+    const foodrecipeLink = "https://food-recipe-store.vercel.app/"
+    const githubRecipe = "https://github.com/Nelson501/Food-Recipe-store.git"
 
     // My web Flyer
     const flyerLink = "www.computer.com"
     const githubFlyer = 'git hub link'
 
 
-    return <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 gap-10">
+    return <div className="grid grid-cols- md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10">
         {/* fist  */}
         <div className='flex flex-col '>
             <div className='flex flex-col justify-center items-center'>

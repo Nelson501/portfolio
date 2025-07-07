@@ -7,7 +7,7 @@ export const Services = ()=>{
 
     return <div className="text-white p-4 flex flex-col justify-center items-center">
 
-        <div className="flex flex-cols justify-center items-center uppercase py-6 text-white mt-6">
+        <div className="flex flex-col justify-center items-center uppercase py-6 text-white mt-6">
             <h1 className=" text-[25px] md:text-[40px]  font-bold">Our Services &copy;</h1>
         </div>
 
@@ -73,7 +73,7 @@ export const Services = ()=>{
        </div>
 
         {/* portfolio */}
-        <div className="flex flex-col justify-center items-center py-6 text-white  md:mt-[5rem] bg-cyan-950 p-4 rounded-lg shadow-lg shadow-cyan-900">
+        <div className="flex flex-col justify-center items-center py-6 text-white  md:mt-[5rem] bg-cyan-950 p-4 rounded-lg shadow-sm shadow-white">
             <h1 className=" text-[25px] md:text-[40px]  font-bold uppercase font-serif">porfolio &copy;</h1>
         </div>
 
@@ -81,8 +81,8 @@ export const Services = ()=>{
         <div className="flex flex-col justify-center items-center">
             <Portfolio/>
         </div>
-        <div className="flex flex-col text-white items-center mt-10 bg-cyan-950 p-2">
-            <Link to="/about">About</Link>
+        <div className="flex flex-col text-white items-center mt-10 bg-cyan-950 py-2 px-3 rounded-[8px]">
+            <Link className="font-bold text-centert text-[1.5rem]" to="/about">About</Link>
         </div>
     </div>
 }

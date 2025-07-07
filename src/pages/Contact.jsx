@@ -6,38 +6,31 @@ import { Footer } from "./Footer"
 
 
 export const Contact = ()=>{
-    return <div className="flex flex-col justify-center w-full">
+    return <div className="flex flex-col items-center">
 
-        <div className="flex flex-col justify-center items-center w-[70%] sm:left-[28%] italic font-serif
-         sm:w-[40%] relative left-[3.3rem] md:left-[27 rem] py-6 text-white justify-center items-center my-6 mt-10">
-            <h1 className=" text-[20px] md:text-[40px]  font-bold">contact</h1>
+        <div className="flex flex-col items-center bg-cyan-950 mt-10 py-2 px-8 rounded-lg border-b-2 borderwhite">
+            <h1 className="text-[2rem] md:text-[3rem]  font-bold text-white font-serif">contact &copy;</h1>
         </div>
 
-        <div className="text-white mt-[30px] flex flex-col justify-center items-center w-full">
-            <div className="flex
-             justify-center mt-6 items-center">
+        <div className="text-white mt-[30px] flex flex-col justify-center items-center">
+            <div className="flex gap-[2rem] fle-row justify-center mt-6 items-center">
                 <div className="w-[30px]">
                     <img src="/media-logo/gmail.png" alt="" />
                 </div>
-                <div className="ml-[30px] lg:ml-[80px]">
-                    <a href="sunnynax01@gmail.com" className="">sunnynax01@gmail.com</a>
-                    {/* <img src={IMAGES.git} alt="" /> */}
-                </div>
+                <a href="sunnynax01@gmail.com" className="">sunnynax01@gmail.com</a>
+                
             </div>
 
             <div className="flex
              justify-center mt-6 items-center">
-                <div className="w-[30px] bg-white p-1 rounded-lg mr-[80px] md:mr[100px] lg:mr-[140px]">
-                    <img src="/media-logo/phone-solid.svg" alt="" />
+                <div className="w-[30px] bg-white p-1 rounded-lg mr-[80px]">
+                    <img src="/media-logo/phone-solid.svg" alt="" />  
                 </div>
-                <div className="">
-                    <a href="07045345605" className="text-[20px] ml-">07045345605</a>
-                </div>
+                <a href="07045345605" className="text-[20px] ml-">07045345605</a>
             </div>
         </div>
 
-        {/* form */}
-        {/* <Form/> */}
+        
         <div className=" mt-10 flex flex-col justify-center items-center">
             <form action="form" className="flex flex-col sm:flex-row">
                 <input type="text"  placeholder="Enter Your name" className="m-2 p-2 w-full border-b-2 border-gray-700 rounded-lg bg-cyan-950 text-white "/>
@@ -47,7 +40,7 @@ export const Contact = ()=>{
 
             <textarea name="text" id="name" cols="30" rows="10" className="mt-6 bg-cyan-950 p-2 text-white font-serif rounded-lg" placeholder="Message"></textarea>
 
-            <div className="submit hover:bg-cyan-900 cursor-pointer shadow-md shadow-slate-400 text-white my-10 px-6 py-3 bg-cyan-950 rounded-md font-bold ">Submit</div>
+            <div className="submit hover:bg-cyan-900 cursor-pointer shadow-sm shadow-slate-400 text-white my-10 px-6 py-3 bg-cyan-950 rounded-md font-bold ">Submit</div>
         
         </div>
 

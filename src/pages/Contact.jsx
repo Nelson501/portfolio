@@ -8,7 +8,7 @@ import { Footer } from "./Footer"
 export const Contact = ()=>{
     return <div className="flex flex-col items-center">
 
-        <div className="flex flex-col items-center bg-cyan-950 mt-10 py-2 px-8 rounded-lg border-b-2 borderwhite">
+        <div className="flex flex-col justify-center items-center bg-cyan-950 mt-10 py-2 px-8 rounded-lg border-b-2 borderwhite">
             <h1 className="text-[2rem] md:text-[3rem]  font-bold text-white font-serif">contact &copy;</h1>
         </div>
 

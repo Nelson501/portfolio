@@ -24,7 +24,7 @@ export const About = ()=>{
             <div className="flex flex-col mt-10 bg-cyan-950 items-center p-2 rounded-lg border-b-2 hover:bg-cyan-900">
                 <Link className="font-serif font-bold" to="#">Let's Talk</Link> 
             </div>
-        </div>x
+        </div>
         
     </div>
     

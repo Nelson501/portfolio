@@ -4,7 +4,7 @@ import INVENTORY from '../assets/engr.png'
 import TODOLIST from '../assets/Todo-list.png'
 import ECOMMERCE from '../assets/Ecommerce.png'
 import CALCULATOR from '../assets/calculator.png'
-import STOPWATCH from '../assets/stopwatch.png'
+import STOPWATCH from '../assets/Stopwatch.png'
 import RPSGAME from '../assets/r-p-s-game.png'
 import FOODRECIPE from '../assets/foodRecipe.png'
 import MYFLYER from '../assets/myWeb.png'
@@ -152,7 +152,7 @@ export const Portfolio = ()=>{
         {/* Stop Watch */}
         <div>
             <div className='flex flex-col justify-center items-center'>
-                <img className='w-[200px] h-[200px] rounded-lg shadow-md shadow-yellow-500' src={STOPWATCH} alt="" />
+                <img className='w-[200px] h-[200px] rounded-lg shadow-md shadow-yellow-500' src={RPSGAME} alt="" />
                 <p className='mt-3 text-10 font-serif font-bold italic'>Rock-Paper_Scissors</p>
             </div>
             <div className='flex flex-row justify-center items-center mt-2 '>
@@ -168,7 +168,7 @@ export const Portfolio = ()=>{
         {/* Rock-Paper-Scissors */}
         <div>
             <div className='flex flex-col justify-center items-center'>
-                <img className='w-[200px] h-[200px] rounded-lg shadow-md shadow-yellow-500' src={RPSGAME} alt="" />
+                <img className='w-[200px] h-[200px] rounded-lg shadow-md shadow-yellow-500' src={STOPWATCH} alt="" />
                 <p className='mt-3 text-10 font-serif font-bold italic'>Stop Watch</p>
             </div>
             <div className='flex flex-row justify-center items-center mt-2 '>

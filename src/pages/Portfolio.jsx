@@ -1,6 +1,6 @@
 import FOODAPP from '../assets/foodApp.png'
 import FORM from '../assets/form.png'
-import INVENTORY from '../assets/inventory-mgt.png'
+import INVENTORY from '../assets/engr.png'
 import TODOLIST from '../assets/Todo-list.png'
 import ECOMMERCE from '../assets/ecommerce.png'
 import CALCULATOR from '../assets/calculator.png'

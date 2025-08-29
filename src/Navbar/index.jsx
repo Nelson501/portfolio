@@ -24,11 +24,11 @@ export const Navbar = ()=>{
         </div>
 
         <div className="hidden sm:flex w-[70%] sm:w-[60%] justify-around text-white">
-            <Link className="hover:bg-white hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='/'>Home</Link>
-            <Link className="hover:bg-white hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='about'>About</Link>
-            <Link className="hover:bg-white hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='services'>Services</Link>
-            <Link className="hover:bg-white hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='skill' >Skills</Link>
-            <Link className="hover:bg-white hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='contact'>Contact</Link>
+            <Link className="hover:bg-white transition-all hover:translate-y-2 hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='/'>Home</Link>
+            <Link className="hover:bg-white transition-all hover:translate-y-2 hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='about'>About</Link>
+            <Link className="hover:bg-white transition-all hover:translate-y-2 hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='services'>Services</Link>
+            <Link className="hover:bg-white transition-all hover:translate-y-2 hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='skill' >Skills</Link>
+            <Link className="hover:bg-white transition-all hover:translate-y-2 hover:text-cyan-950 italic font-serif cursor-pointer p-1 rounded-md" to='contact'>Contact</Link>
         </div>
         
     </nav>

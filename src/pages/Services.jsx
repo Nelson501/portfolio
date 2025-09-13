@@ -61,10 +61,10 @@ export const Services = ()=>{
                      rounded-md" >Electrical Engineering</div>
                     <div>
                         <p className="text:red-500 text-white">I installs, maintains, and repairs electricaal systems in homes and residential buildings..
-                            <p>.Installing eectrical fixtures like lights, sckets, and switches.</p>
-                            <p>.Setting up household appliances and ensuring safety power supply.</p>
-                            <p>.Fixing electrical faults and troubleshooting problems.
-                            Ensuring safety compliance with local electricak codes and standards</p>
+                            <span>.Installing eectrical fixtures like lights, sckets, and switches.</span>
+                            <span>.Setting up household appliances and ensuring safety power supply.</span>
+                            <span>.Fixing electrical faults and troubleshooting problems.
+                            Ensuring safety compliance with local electricak codes and standards</span>
                         </p>
                     </div>
                 </div>

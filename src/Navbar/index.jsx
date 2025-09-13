@@ -12,7 +12,7 @@ export const Navbar = ()=>{
 
     return<>
     {/* <button onClick={toggleMenu}>togble</button> */}
-    <nav className="flex w-full items-center justify-between bg-cyan-950 px-4 py-2 fixed top-0 z-50">
+    <nav className="flex flex-row justify-between items-center w-full bg-cyan-950 px-4 py-2 fixed top-0 z-50">
 
         <div className="w-[40px] sm:w-[70px]" >
             <img src="/logo/c.png" alt="logo" className="rounded-[50%]" />
@@ -33,7 +33,7 @@ export const Navbar = ()=>{
         
     </nav>
 
-    <div className={`flex flex-col items-center px-3 gap-3 text-white font-bold w-[60%] relative left-[8rem] mt-4 italic sm:hidden rounded-md ${openMenu? "hidden" : "block"}`}>
+    <div className={`flex flex-col px-3 gap-3 text-white font-bold w-[60%] relative pt-[6rem] italic sm:hidden rounded-md ${openMenu? "hidden" : "block"}`}>
             <Link className="hover:text-cyan-950 cursor-pointer p-1 rounded-md" to='/'>Home</Link>
             <Link className="hover:text-cyan-950 cursor-pointer p-1 rounded-md" to='/about'>About</Link>
             <Link className="hover:text-cyan-950 cursor-pointer p-1 rounded-md" to='/services'>Services</Link>

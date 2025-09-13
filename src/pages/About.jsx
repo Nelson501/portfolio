@@ -18,7 +18,7 @@ export const About = ()=>{
 
             <div className="flex flex-col justify-center items-center mt-4">
                 <p className="w-full justify-center items-center text-lg text-center">I'm a passionate Developer and Designer dedicated to turning ideas into powerful digital experiences that not only look beautiful but work flawlessly.
-                <p className="italic font-bold text-cyan-200">With a unique blend of technical expertise and creative version, i build modern websites, web applications, and user interfaces that are both visually engaging and highly functional. From sleek front-end designs to full-stack development. I craft custom solutions that align perfectly with your business goals &copy;</p>
+                <span className="italic font-bold text-cyan-200">With a unique blend of technical expertise and creative version, i build modern websites, web applications, and user interfaces that are both visually engaging and highly functional. From sleek front-end designs to full-stack development. I craft custom solutions that align perfectly with your business goals &copy;</span>
                 </p>
             </div>
             <div className="flex flex-col mt-10 bg-cyan-950 items-center p-2 rounded-lg border-b-2 hover:bg-cyan-900">

@@ -1,9 +1,9 @@
 export const Home = ()=>{
     return <>
 
-    <div className="flex flex-cols justify-center items-center p-[50px]">
+    <div className="grid grid-cols-1 md:flex justify-center items-center px-[50px] py-[4rem] pt-[6rem]">
         {/* first section */}
-        <div className="py-6 pr-[40px] text-white">
+        <div className=" flex flex-col justify-center items-center py-6 pr-[40px] text-white">
 
             <div className="text-cyan-800 text-[35px] font-bold w-full ">
                 <h2>Nelson Adedayo</h2>
@@ -24,7 +24,7 @@ export const Home = ()=>{
         </div>
 
         {/* second section */}
-        <div className="hidden sm:flex p-2">
+        <div className=" flex justify-center items-center p-2">
             <img src="/logo/img.jpg" alt="" />
         </div>
         
